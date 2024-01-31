@@ -1,9 +1,9 @@
-import React, { useRef } from 'react'
+import React from 'react'
 
-const Contact = ({refVal}) => {
+const Contact = ({elementRef}) => {
   return (
     <div 
-      ref={refVal}
+      ref={elementRef}
       className='bg-yellow-100 h-[500px]'>
       Contact
     </div>

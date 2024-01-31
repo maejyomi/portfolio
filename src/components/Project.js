@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Project = ({refVal}) => {
+const Project = ({elementRef}) => {
   return (
-    <div ref={refVal} className='bg-indigo-100 h-[500px]'>
+    <div ref={elementRef} className='bg-indigo-100 h-[500px] pt-[4rem]'>
       Project
     </div>
   )

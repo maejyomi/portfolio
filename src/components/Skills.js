@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Skills = ({refVal}) => {
+const Skills = ({elementRef}) => {
   return (
-    <div ref={refVal} className='bg-green-100 h-[500px]'>
+    <div ref={elementRef} className='bg-green-100 h-[500px]'>
       Skills
     </div>
   )
