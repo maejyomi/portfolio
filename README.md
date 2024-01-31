@@ -6,9 +6,15 @@
 
 
 ## Todo.
-### 24.01.24 : 리액트 초기설정 및 폴더구조 정리
-### 24.01.30 : 메뉴 클릭 시 스크롤 기능 추가, 네비게이션 반응형 구현
+- [x] 헤더 완성
+- [ ] 섹션
+    - [ ] About Me
+    - [ ] Projects
+    - [ ] Skills
+    - [ ] Contact
 
 ## Ref.
 - TailwindCSS
-- 
+- [google fonts](https://fonts.google.com/)
+- [unsplash](https://unsplash.com/ko)
+- react icons
