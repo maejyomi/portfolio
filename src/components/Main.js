@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import AboutMe from "./AboutMe";
+import AboutMe from "./AboutMe/AboutMe";
 import Contact from "./Contact";
 import Project from "./Project";
 import Skills from "./Skills";
