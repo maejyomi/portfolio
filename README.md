@@ -8,7 +8,7 @@
 ## Todo.
 - [x] 헤더 완성
 - [ ] 섹션
-    - [ ] About Me
+    - [x] About Me
     - [ ] Projects
     - [ ] Skills
     - [ ] Contact
