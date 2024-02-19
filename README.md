@@ -4,14 +4,18 @@
 
 ## 사용기술
 
+|기술|버전|
+|:---:|:---:|
+|NodeJs|18.18.0|
+|React|18.2.0|
+|tailwindcss|3.4.1|
 
 ## Todo.
 - [x] 헤더 완성
-- [ ] 섹션
+- [x] 섹션
     - [x] About Me
-    - [ ] Projects
-    - [ ] Skills
-    - [ ] Contact
+    - [x] Projects
+    - [x] Skills
 
 ## Ref.
 - TailwindCSS
