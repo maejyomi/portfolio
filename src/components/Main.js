@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import AboutMe from "./AboutMe/AboutMe";
-import Contact from "./Contact";
 import Project from "./Project/Project";
-import Skills from "./Skills";
+import Skills from "./Skills/Skills";
 
 const Main = () => {
   /* 스크롤 이동 */
@@ -30,9 +29,10 @@ const Main = () => {
     <div className="">
       <nav className="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <span 
+          <span
             onClick={() => onMoveToMenu(aboutRef)}
-            className="cursor-pointer self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            className="cursor-pointer self-center text-2xl font-semibold transition-all hover:text-[#FF8982]"
+          >
             KHJ's Portfolio
           </span>
 
@@ -72,27 +72,21 @@ const Main = () => {
             <ul className="flex flex-col p-4 md:p-0 mt-4 text-lg font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
               <li
                 onClick={() => onMoveToMenu(aboutRef)}
-                className="block md:bg-transparent transition-all cursor-pointer"
+                className="block md:bg-transparent transition-all cursor-pointer hover:text-[#FF8982]"
               >
                 About me
               </li>
               <li
                 onClick={() => onMoveToMenu(projectRef)}
-                className="cursor-pointer"
+                className="cursor-pointer transition-all hover:text-[#FF8982]"
               >
                 Projects
               </li>
               <li
                 onClick={() => onMoveToMenu(skillsRef)}
-                className="cursor-pointer"
+                className="cursor-pointer transition-all hover:text-[#FF8982]"
               >
                 Skills
-              </li>
-              <li
-                onClick={() => onMoveToMenu(contactRef)}
-                className="cursor-pointer"
-              >
-                Contact
               </li>
             </ul>
           </div>
@@ -102,7 +96,9 @@ const Main = () => {
       <AboutMe elementRef={aboutRef} />
       <Project elementRef={projectRef} />
       <Skills elementRef={skillsRef} />
-      <Contact elementRef={contactRef} />
+      <div className="flex flex-col justify-center text-center bg-[#414656] text-white h-[100px]">
+        © 2024. Kim Hye Jeong. / All rights reserved.
+      </div>
     </div>
   );
 };
